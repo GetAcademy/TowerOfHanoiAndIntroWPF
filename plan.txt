@@ -1,7 +1,9 @@
  1: Single Responsibility Principle
+    - SOLID
     - hvordan bryter gammel versjon med dette prinsippet?
     - ny versjon
     - dele opp i prosjekter/pakker = få hjelp av visual studio til å håndheve 
  2: Intro WPF
+    - preview arv
  3: Towers of Hanoi i WPF med samme logikk
       

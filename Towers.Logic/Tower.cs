@@ -1,6 +1,6 @@
-﻿namespace Towers.Console
+﻿namespace Towers.Logic
 {
-    internal class Tower
+    public class Tower
     {
         public bool IsComplete => _disks.Count == 3;
 

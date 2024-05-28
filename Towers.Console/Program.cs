@@ -1,4 +1,5 @@
 ﻿using Towers.Console;
+using Towers.Logic;
 
 var game = new Game();
 while (game.IsRunning)

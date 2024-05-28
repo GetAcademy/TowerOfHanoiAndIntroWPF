@@ -1,4 +1,6 @@
-﻿namespace Towers.Console
+﻿using Towers.Logic;
+
+namespace Towers.Console
 {
     internal class MyConsole
     {
@@ -16,7 +18,6 @@
 
         public static void WriteDisk(Disk disk, int row, int col, char character = '=')
         {
-            //System.Console.ForegroundColor = 
             WriteDisk(disk.Size, row, col, character);
         }
 

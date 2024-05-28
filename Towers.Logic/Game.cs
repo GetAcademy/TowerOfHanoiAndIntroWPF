@@ -1,6 +1,6 @@
-﻿namespace Towers.Console
+﻿namespace Towers.Logic
 {
-    internal class Game
+    public class Game
     {
         public Tower[] Towers { get; }
         public bool IsRunning => !Towers[2].IsComplete;

@@ -1,6 +1,6 @@
-﻿namespace Towers.Console
+﻿namespace Towers.Logic
 {
-    internal class Disk
+    public class Disk
     {
         public int Size { get; }
 
