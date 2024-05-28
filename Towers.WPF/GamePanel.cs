@@ -71,7 +71,7 @@ namespace Towers.WPF
                 Fill = color,
                 Margin = new Thickness(5)
             };
-            towerPanel.Children.Add(rectangle);
+            towerPanel.Children.Insert(towerPanel.Children.Count-2, rectangle);
         }
 
         private void AddButton(int from, int to, StackPanel panel)
